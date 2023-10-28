@@ -373,8 +373,8 @@
         },
         {
             "name" : {
-                "original" : "AspNetUserClaims",
-                "new" : "aspnetuserclaims"
+                "original" : "aspnetuserclaims",
+                "new" : "AspNetUserClaims"
             }
         },
         {
