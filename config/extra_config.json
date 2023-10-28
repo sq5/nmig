@@ -24,36 +24,366 @@
     "tables" : [
         {
             "name" : {
-                "original" : "salary",
-                "new" : "renamed_salary"
-            },
-
-            "columns" : [
-                {
-                    "original" : "id",
-                    "new" : "renamed_id"
-                },
-
-                {
-                    "original" : "employee_id",
-                    "new" : "renamed_employee_id"
-                }
-            ]
+                "original" : "additionalfields",
+                "new" : "AdditionalFields"
+            }
         },
 
         {
             "name" : {
-                "original" : "contract",
-                "new" : "renamed_contract"
-            },
-
-            "columns" : [
-                {
-                    "original" : "id",
-                    "new" : "renamed_id"
-                }
-            ]
+                "original" : "additionalfieldsmappings",
+                "new" : "AdditionalFieldsMappings"
+            }
+        },
+        {
+            "name" : {
+                "original" : "apilogs",
+                "new" : "ApiLogs"
+            }
+        },
+        {
+            "name" : {
+                "original" : "appusers",
+                "new" : "AppUsers"
+            }
+        },
+        {
+            "name" : {
+                "original" : "aspnetroleclaims",
+                "new" : "AspNetRoleClaims"
+            }
+        },
+        {
+            "name" : {
+                "original" : "aspnetroles",
+                "new" : "AspNetRoles"
+            }
+        },
+        {
+            "name" : {
+                "original" : "aspnetuserroles",
+                "new" : "AspNetUserRoles"
+            }
+        },
+        {
+            "name" : {
+                "original" : "aspnetusers",
+                "new" : "AspNetUsers"
+            }
+        },
+        {
+            "name" : {
+                "original" : "aspnetusertokens",
+                "new" : "AspNetUserTokens"
+            }
+        },
+        {
+            "name" : {
+                "original" : "astralsigningevents",
+                "new" : "AstralSigningEvents"
+            }
+        },
+        {
+            "name" : {
+                "original" : "backgroundservicelogs",
+                "new" : "BackgroundServiceLogs"
+            }
+        },
+        {
+            "name" : {
+                "original" : "billings",
+                "new" : "Billings"
+            }
+        },
+        {
+            "name" : {
+                "original" : "certificates",
+                "new" : "Certificates"
+            }
+        },
+        {
+            "name" : {
+                "original" : "clients",
+                "new" : "Clients"
+            }
+        },
+        {
+            "name" : {
+                "original" : "clientsautomations",
+                "new" : "ClientsAutomations"
+            }
+        },
+        {
+            "name" : {
+                "original" : "clientsreports",
+                "new" : "ClientsReports"
+            }
+        },
+        {
+            "name" : {
+                "original" : "clientstasks",
+                "new" : "ClientsTasks"
+            }
+        },
+        {
+            "name" : {
+                "original" : "clientstemplates",
+                "new" : "ClientsTemplates"
+            }
+        },
+        {
+            "name" : {
+                "original" : "contractors",
+                "new" : "Contractors"
+            }
+        },
+        {
+            "name" : {
+                "original" : "dataprotectionkeys",
+                "new" : "DataProtectionKeys"
+            }
+        },
+        {
+            "name" : {
+                "original" : "depperms",
+                "new" : "DepPerms"
+            }
+        },
+        {
+            "name" : {
+                "original" : "departments",
+                "new" : "Departments"
+            }
+        },
+        {
+            "name" : {
+                "original" : "doctypes",
+                "new" : "DocTypes"
+            }
+        },
+        {
+            "name" : {
+                "original" : "documentcomments",
+                "new" : "DocumentComments"
+            }
+        },
+        {
+            "name" : {
+                "original" : "documentlinks",
+                "new" : "DepartmDocumentLinksents"
+            }
+        },
+        {
+            "name" : {
+                "original" : "edisettings",
+                "new" : "EDISettings"
+            }
+        },
+        {
+            "name" : {
+                "original" : "edisignperms",
+                "new" : "EDISignPerms"
+            }
+        },
+        {
+            "name" : {
+                "original" : "emailsender",
+                "new" : "EmailSender"
+            }
+        },
+        {
+            "name" : {
+                "original" : "departments",
+                "new" : "Departments"
+            }
+        },
+        {
+            "name" : {
+                "original" : "favorites",
+                "new" : "Favorites"
+            }
+        },
+        {
+            "name" : {
+                "original" : "employees",
+                "new" : "Employees"
+            }
+        },
+        {
+            "name" : {
+                "original" : "extconnections",
+                "new" : "ExtConnections"
+            }
+        },
+        {
+            "name" : {
+                "original" : "extexchangesettings",
+                "new" : "ExtExchangeSettings"
+            }
+        },
+        {
+            "name" : {
+                "original" : "files",
+                "new" : "Files"
+            }
+        },
+        {
+            "name" : {
+                "original" : "groups",
+                "new" : "Groups"
+            }
+        },
+        {
+            "name" : {
+                "original" : "lookupperms",
+                "new" : "LookupPerms"
+            }
+        },
+        {
+            "name" : {
+                "original" : "metadatas",
+                "new" : "Metadatas"
+            }
+        },
+        {
+            "name" : {
+                "original" : "nonformdocs",
+                "new" : "NonFormDocs"
+            }
+        },
+        {
+            "name" : {
+                "original" : "numerators",
+                "new" : "Numerators"
+            }
+        },
+        {
+            "name" : {
+                "original" : "organizations",
+                "new" : "Organizations"
+            }
+        },
+        {
+            "name" : {
+                "original" : "orgperms",
+                "new" : "OrgPerms"
+            }
+        },
+        {
+            "name" : {
+                "original" : "powerofattorneys",
+                "new" : "PowerOfAttorneys"
+            }
+        },
+        {
+            "name" : {
+                "original" : "projectperms",
+                "new" : "ProjectPerms"
+            }
+        },
+        {
+            "name" : {
+                "original" : "projects",
+                "new" : "Projects"
+            }
+        },
+        {
+            "name" : {
+                "original" : "reestrperms",
+                "new" : "ReestrPerms"
+            }
+        },
+        {
+            "name" : {
+                "original" : "settings",
+                "new" : "Settings"
+            }
+        },
+        {
+            "name" : {
+                "original" : "signaturesandedievents",
+                "new" : "SignaturesAndEDIEvents"
+            }
+        },
+        {
+            "name" : {
+                "original" : "substitutions",
+                "new" : "Substitutions"
+            }
+        },
+        {
+            "name" : {
+                "original" : "usersevents",
+                "new" : "UsersEvents"
+            }
+        },
+        {
+            "name" : {
+                "original" : "tariffs",
+                "new" : "Tariffs"
+            }
+        },
+        {
+            "name" : {
+                "original" : "userstasks",
+                "new" : "UsersTasks"
+            }
+        },
+        {
+            "name" : {
+                "original" : "versions",
+                "new" : "Versions"
+            }
+        },
+        {
+            "name" : {
+                "original" : "wfclientfunctions",
+                "new" : "WFClientFunctions"
+            }
+        },
+        {
+            "name" : {
+                "original" : "wftemplates",
+                "new" : "WFTemplates"
+            }
+        },
+        {
+            "name" : {
+                "original" : "workflows",
+                "new" : "Workflows"
+            }
+        },
+        {
+            "name" : {
+                "original" : "__efmigrationshistory",
+                "new" : "__EFMigrationsHistory"
+            }
+        },
+        {
+            "name" : {
+                "original" : "dockinds",
+                "new" : "DocKinds"
+            }
+        },
+        {
+            "name" : {
+                "original" : "usersettings",
+                "new" : "UserSettings"
+            }
+        },
+        {
+            "name" : {
+                "original" : "AspNetUserClaims",
+                "new" : "aspnetuserclaims"
+            }
+        },
+        {
+            "name" : {
+                "original" : "aspnetuserlogins",
+                "new" : "AspNetUserLogins"
+            }
         }
+
     ],
 
     "README_FKs" : [
@@ -66,44 +396,6 @@
     ],
 
     "foreign_keys" : [
-        {
-            "constraint_name" : "renamed_admins_renamed_group_id_foreign",
-            "table_name" : "renamed_admins",
-            "column_name" : "renamed_group_id",
-            "referenced_table_name" : "renamed_groups",
-            "referenced_column_name" : "renamed_id",
-            "update_rule" : "restrict",
-            "delete_rule" : "restrict"
-        },
-
-        {
-            "constraint_name" : "logs_test_3_merchant_id_foreign",
-            "table_name" : "logs_test_3",
-            "column_name" : "merchant_id",
-            "referenced_table_name" : "merchants",
-            "referenced_column_name" : "id",
-            "update_rule" : "restrict",
-            "delete_rule" : "cascade"
-        },
-
-        {
-            "constraint_name" : "composite_foreign_key_example",
-            "table_name" : "logs_test-6",
-            "column_name" : "id1",
-            "referenced_table_name" : "logs_test_4",
-            "referenced_column_name" : "id1",
-            "update_rule" : "cascade",
-            "delete_rule" : "cascade"
-        },
-
-        {
-            "constraint_name" : "composite_foreign_key_example",
-            "table_name" : "logs_test-6",
-            "column_name" : "id2",
-            "referenced_table_name" : "logs_test_4",
-            "referenced_column_name" : "id2",
-            "update_rule" : "cascade",
-            "delete_rule" : "cascade"
-        }
+        
     ]
 }

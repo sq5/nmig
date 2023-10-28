@@ -14,11 +14,11 @@
     "source" : {
         "host"             : "127.0.0.1",
         "port"             : 3306,
-        "database"         : "test_db",
+        "database"         : "ensolcloud",
         "charset"          : "utf8mb4",
         "supportBigNumbers": true,
         "user"             : "root",
-        "password"         : "0123456789"
+        "password"         : "Kostik_53"
     },
 
     "target_description" : [
@@ -31,10 +31,10 @@
     "target" : {
         "host"     : "127.0.0.1",
         "port"     : 5432,
-        "database" : "test_db",
+        "database" : "ensolcloud",
         "charset"  : "UTF8",
         "user"     : "postgres",
-        "password" : "0123456789"
+        "password" : "Kostik_53"
     },
 
     "max_each_db_connection_pool_size_description" : [
@@ -128,5 +128,5 @@
         "In order to enable the additional configuration options, placed at extra_config.json",
         " - set this parameter true."
     ],
-    "enable_extra_config" : false
+    "enable_extra_config" : true
 }
